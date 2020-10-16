@@ -14,6 +14,6 @@ try:
                     watermaxd = line[0:16]
             except:
                 print ("Failure in search")
-    print (f"In {watermaxd} the maximum level was {watermax}")
+    print (f"The maximum level was {watermax} in {watermaxd[0:10]} at {watermaxd[11:16]}")
 except:
     print("File not Found")
